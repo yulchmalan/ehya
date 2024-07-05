@@ -1,0 +1,180 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: DM Sans, sans-serif;
+  font-weight: 500;
+}
+
+header {
+  width: 100%;
+  float: left;
+  position: sticky;
+  top: 0;
+  padding: 40px 0;
+  color: #fff;
+  z-index: 999;
+}
+header .container {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 425px;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.gradient-button {
+  background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 80px;
+  height: 25px;
+}
+
+.ml40 {
+  margin-left: 40px;
+}
+
+.section__main {
+  height: 800px;
+  background: linear-gradient(216.04deg, #1aacd8 13.84%, #00A8DB 83.53%);
+  color: #fff;
+}
+.section__main .container {
+  position: relative;
+}
+.section__main .wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  width: 625px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+}
+
+h2 {
+  display: inline-block;
+  width: 460px;
+  margin: 32px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.white-button {
+  background-color: #fff;
+  color: #00A8DB;
+}
+
+.button {
+  display: inline-block;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+
+.ring {
+  width: 432px;
+  height: 432px;
+  position: absolute;
+  right: 200px;
+  top: 160px;
+}
+
+.ring::before {
+  content: "";
+  position: absolute;
+  opacity: 15%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: linear-gradient(0, rgba(255, 255, 255, 0.0001) 0%, #FFFFFF 99.73%);
+}
+
+.ring::after {
+  content: "";
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
+  background-color: #00A8DB;
+}
+
+.diagram {
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.third-diagram {
+  right: 0;
+  height: 660px;
+  width: 550px;
+  right: 0px;
+  top: 300px;
+  background-size: cover;
+  filter: brightness(99%);
+  background-image: url(../images/diagram3.png);
+}
+
+.second-diagram {
+  width: 230px;
+  height: 128px;
+  background-size: contain;
+  background-image: url(../images/diagram2.png);
+  right: 0;
+  top: 275px;
+  z-index: 900;
+}
+
+.first-diagram {
+  width: 193px;
+  height: 240px;
+  background-size: contain;
+  background-image: url(../images/diagram1.png);
+  right: 450px;
+  top: 463px;
+  z-index: 900;
+}/*# sourceMappingURL=style.css.map */
