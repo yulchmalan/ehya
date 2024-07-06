@@ -327,4 +327,87 @@ p,
   background-size: contain;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  background-image: url(../images/icons.png);
+  background-size: cover;
+}
+
+.icon-second {
+  background-position: 56px;
+}
+
+.icon-third {
+  background-position: 112px;
+}
+
+.icon-fourth {
+  background-position: 168px;
+}
+
+.hashtags p {
+  display: inline-block;
+  width: 580px;
+  text-align: center;
+  margin-bottom: 76px;
+}
+
+.hashtags {
+  background-color: #EFFBFF;
+  height: 700px;
+}
+.hashtags h3 {
+  margin-top: 80px;
+}
+
+.hashtags .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+}
+
+.card {
+  width: 260px;
+  height: 300px;
+  background-color: #fff;
+  padding: 28px 32px 46px 28px;
+  border-radius: 8px;
+  transition: all ease 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 16px 37px 75px rgba(90, 113, 132, 0.23);
+  transition: all ease 0.5s;
+}
+
+.card p {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  margin: 0;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #034D82;
+  line-height: 28px;
+}
+
+.card h4 {
+  padding: 24px 0 16px;
+}
+
+.feedback {
+  height: 750px;
 }/*# sourceMappingURL=style.css.map */
